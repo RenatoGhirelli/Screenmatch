@@ -41,8 +41,10 @@ public class Titulo {
         this.duracaoEmMinutos = duracaoEmMinutos;
     }
 
-
-
+    public Titulo(String nome, int anoDeLancamento) {
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
 
     public void exibeFichaTecnica(){
 
