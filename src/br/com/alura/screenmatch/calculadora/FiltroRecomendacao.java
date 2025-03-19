@@ -5,6 +5,8 @@ public class FiltroRecomendacao {
 
     public void filtra(Classificavel classificavel) {
 
+        String varel1 = "teste";
+
         if (classificavel.getClassificao() >= 4) {
             System.out.println("Está entre os preferidos do momento");
         } else if (classificavel.getClassificao() >= 2) {
@@ -12,6 +14,5 @@ public class FiltroRecomendacao {
         } else {
             System.out.println("Coloque na sua lista para assisitr depois");
         }
-
     }
 }
